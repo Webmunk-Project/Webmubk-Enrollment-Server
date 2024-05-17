@@ -1,0 +1,15 @@
+[submodule "quicksilver"]
+	path = quicksilver
+	url = https://github.com/audacious-software/Quicksilver-Django.git
+[submodule "simple_backup"]
+	path = simple_backup
+	url = https://github.com/audacious-software/Simple-Backup-Django.git
+[submodule "simple_data_export"]
+	path = simple_data_export
+	url = https://github.com/audacious-software/Simple-Data-Export-Django.git
+[submodule "nagios_monitor"]
+	path = nagios_monitor
+	url = https://github.com/audacious-software/Django-Nagios-Monitoring.git
+[submodule "enrollment"]
+	path = enrollment
+	url = https://github.com/Webmunk-Project/Webmunk-Enrollment-App.git
