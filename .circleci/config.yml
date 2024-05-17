@@ -32,7 +32,7 @@ jobs:
             python3 -m venv --copies /home/circleci/venv
             . /home/circleci/venv/bin/activate
             pip install -r requirements.txt
-            cp .circleci/circle_settings.py webmunk/local_settings.py
+            cp .circleci/circle_settings.py webmunk_enrollment/local_settings.py
             python manage.py migrate
             python manage.py test
             cp passive_data_kit/.pylintrc .
